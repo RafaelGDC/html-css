@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #principal {
+            background-image: url('imagens/target001.png');
+            background-color: rgb(241, 185, 100);
+            position: relative;
+            height: 93vh;
+            padding: 15px;
+            background-size: 100% 100%;
+        }
+        #conteudo {
+            background-color: rgb(190, 192, 87);
+            height: 150px;
+            width: 350px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="principal">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
