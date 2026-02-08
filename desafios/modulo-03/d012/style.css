@@ -62,11 +62,21 @@ footer {
     color: black;
 }
 .imagem {
-    background-color: rgba(59, 59, 59, 0.568);
+    background-color: rgba(59, 59, 59, 0.575);
     color: white;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.486);
     display: inline-block;
     padding: 6px;
+}
+#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+#img2 {
+    background-image: url('imagens/background002.jpg');
+    
 }
