@@ -12,6 +12,12 @@
             width: 400px;
             border-collapse: collapse;
         }
+        caption { 
+            font-weight: bold;
+            font-size: 1.7em;
+            padding: 8px;
+            background-color: rgba(134, 134, 134, 0.479);
+        }
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -28,10 +34,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Copa do Mundo</caption>
         <thead>
             <tr>
-                <th>Grupo C</th>
-                <th>Pontos</th>
+                <th scope="col">Grupo C</th>
+                <th scope="col" style="width: 40px;">Pontos</th>
             </tr>
         </thead>
         <tbody>
@@ -54,7 +61,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Equipe finalista</th>
+                <th scope="row">Equipe finalista</th>
                 <td class="numero">-</td>
             </tr>
         </tfoot>
